@@ -1,0 +1,105 @@
+/* RESET*/
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+  html, body {
+    height: 100%;
+    background-color: #b07cf7;
+}
+
+  .blog {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    
+  }
+  
+  .blog-title {
+    font-size: 90px;
+    font-weight: 700;
+  }
+  
+  .blog-text {
+    width: 570px;
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  .blog-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+  }
+  
+  .blog-item {
+    width: 370px;
+    height: 310px;
+    margin: 10px;
+    position: relative;
+  }
+
+  .nov-20 {
+    background-image: url('img/1.png');
+  }
+
+  .nov-14 {
+    background-image: url('img/2.png');
+  }
+
+  .nov-10 {
+    background-image: url('img/3.png');
+  }
+
+  .blog-date {
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: rgba(38, 38, 38, 0.5);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .blog-date-month {
+    font-size: 21px;
+   }
+
+  .blog-topic {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .blog-author {
+    font-size: 13px;
+    padding-top: 20px;
+  }
+
+  .blog-item-text {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+  }
+
+  .blog-button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #f72b3b;
+    padding: 15px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
